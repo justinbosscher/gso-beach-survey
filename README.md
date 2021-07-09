@@ -6,6 +6,11 @@
 The purpose of the project is to create a timeseries of cumulative beach volume
 from beach survey data.
 
+The survey data are of depths at points along a particular slice of a particular
+beach over time. The areas under each curve at a given time are calculated using
+the area of a trapezoid. The result is a timeseries of volumetric data which
+reflect the changes in beaches over time.
+
 ## Methods
 * Data Extraction
 * Data Transformation
@@ -27,7 +32,7 @@ y-value for each observation to each measurement.
 
 ## Getting Started
 1. Clone this repo.
-2. Data for this project can not be shared.
+2. Unfortunately, the data for this project can not be shared.
 
 ## License
 MIT License
