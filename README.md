@@ -1,24 +1,18 @@
 ![GitHub](https://img.shields.io/github/license/justinbosscher/gso-beach-survey?style=plastic)
 
-# Rhode Island Beach Morphology Survey
+# Rhode Island Beach Profile Survey
 
 ## Project Objective
-The purpose of the project is to create a timeseries of cumulative beach volume
-from beach survey data.
-
-The survey data are of depths at points along a particular slice of a particular
-beach over time. The areas under each curve at a given time are calculated using
-the area of a trapezoid. The result is a timeseries of volumetric data which
-reflect the changes in beaches over time.
+The purpose of the project is to create a timeseries of cumulative beach
+profiles from beach survey data.
 
 ## Methods
-* Data Extraction
 * Data Transformation
 * Data Visualization
 * Time Series
 
 ## Technologies
-* Python
+* Python 3
 * Python Packages:
   * Pandas
   * Datetime
@@ -27,8 +21,20 @@ reflect the changes in beaches over time.
 
 ## Project Description
 This project provides cumulative beach volume as timeseries data for further
-analysis. The data are scaled by adding the absolute value of the lowest
+analysis.
+
+The survey data are x and y values representing points along the top of a
+particular slice of a beach at a some time. The areas under each curve (slice)
+at a given time are calculated using the area of a trapezoid. The result is a
+timeseries of data which reflect the changes in beaches over time.
+
+The data are transformed by adding the absolute value of the lowest
 y-value for each observation to each measurement.
+
+</br>
+<h3><p style="text-align: center;"><u>Beach Profile Timeseries Plots</u></p>
+
+![Beach Volume Timeseries Plots](plots.png)
 
 ## Getting Started
 1. Clone this repo.
