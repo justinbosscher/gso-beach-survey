@@ -31,7 +31,7 @@ timeseries of data which reflect the changes in beaches over time.
 The data are transformed by adding the absolute value of the lowest
 y-value for each observation to each measurement.
 
-</br>
+<br>
 <h3><p style="text-align: center;"><u>Beach Profile Timeseries Plots</u></p>
 
 ![Beach Volume Timeseries Plots](plots.png)
